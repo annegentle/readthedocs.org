@@ -39,14 +39,14 @@ Use this URL when setting up a new webhook with your provider -- these steps var
 GitHub
 ~~~~~~
 
-* Go to the **Settings** page for your project
-* Click **Webhooks** and then **Add webhook**
-* For **Payload URL**, use the URL of the integration on Read the Docs, found on
+1. Go to the **Settings** page for your project
+1. Click **Webhooks** and then **Add webhook**
+1. For **Payload URL**, use the URL of the integration on Read the Docs, found on
   the the project's **Integrations** Admin dashboard page
-* For **Content type**, both *application/json* and
+1. For **Content type**, both *application/json* and
   *application/x-www-form-urlencoded* work
-* Select **Just the push event**
-* Finish by clicking **Add webhook**
+1. Select **Just the push event**
+1. Finish by clicking **Add webhook**
 
 You can verify if the webhook is working at the bottom of the GitHub page under **Recent Deliveries**. If you see a Response 200, then the webhook is correctly configured.
 For a 403 error, it's likely that the Payload URL is incorrect.
